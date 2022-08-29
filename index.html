@@ -49,12 +49,9 @@ https://templatemo.com/tm-552-video-catalog
                 </div>
             </div>
             <div class="tm-welcome-container text-center text-white">
-                <div class="tm-welcome-container-inner">
-                    <p class="tm-welcome-text mb-1 text-white">Video Catalog is brought to you by TemplateMo.</p>
-                    <p class="tm-welcome-text mb-5 text-white">This is a full-width video banner.</p>
-                    <a href="#content" class="btn tm-btn-animate tm-btn-cta tm-icon-down">
-                        <span>Discover</span>
-                    </a>
+                <div class="overlay">
+                 <img src="https://cms.nhl.bamgrid.com/images/photos/334723644/1000x1000/cut.png" alt="Primary Mark" width="100" height="100">
+
                 </div>
             </div>
 
@@ -67,7 +64,26 @@ https://templatemo.com/tm-552-video-catalog
             
             <i id="tm-video-control-button" class="fas fa-pause"></i>
         </div>
-
+<style>
+	
+	.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.overlay img{
+  position:absolute;
+  left:0;top:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  pointer-events:none;
+  z-index:2;
+}
+	
+	</style>
         
 
  
